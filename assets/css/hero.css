@@ -1,0 +1,84 @@
+.hero {
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.hero__wrapper {
+  height: 100%;
+}
+
+.hero__slider {
+  height: 100%;
+}
+
+.hero__slide {
+  min-height: 1080px;
+}
+
+.hero__slide-content {
+  position: relative;
+  margin-top: 120px;
+  padding: 50px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 253, 253, 0.2);
+  border-radius: 60px;
+  max-width: 1062px;
+  width: 100%;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.hero__slide-title {
+  font-weight: 500;
+  font-size: 96px;
+  margin-bottom: 50px;
+  line-height: 1;
+}
+
+.hero__slide-text {
+  font-size: 24px;
+}
+
+.hero__slide-img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__thumbs-slider {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  bottom: 0;
+  z-index: 4;
+}
+
+.hero__thumbs-slider .swiper-wrapper {
+  align-items: flex-end;
+}
+
+.hero__thumbs-slide {
+  height: auto !important;
+}
+
+.hero__thumbs-slide__wrapper {
+  width: 150px;
+  height: 96px;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all .2s linear;
+  margin: 7px 0 7px auto;
+}
+
+.hero__thumbs-slide__img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero__thumbs-slide.swiper-slide-thumb-active .hero__thumbs-slide__wrapper {
+  width: 310px;
+  height: 200px;
+}
