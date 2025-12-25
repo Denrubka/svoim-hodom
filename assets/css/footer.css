@@ -1,0 +1,38 @@
+.footer {
+  color: var(--main-color);
+  padding-bottom: 50px;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: 10px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__nav {
+  padding: 13px 0;
+}
+
+.footer__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__nav-link {
+  padding: 5px;
+}
+
+.footer__copyrigth {
+  display: flex;
+  justify-content: center;
+  color: var(--second-color);
+}

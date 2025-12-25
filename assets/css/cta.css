@@ -1,0 +1,74 @@
+.cta__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+  background: var(--main-color);
+  border-radius: 30px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.cta__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 283px;
+}
+
+.cta__logo {
+  width: 217px;
+  height: 217px;
+  background: var(--second-color);
+  border-radius: 50px;
+}
+
+.cta__title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cta__rigth {
+  max-width: 444px;
+  width: 100%;
+}
+
+.cta__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__form-input {
+  font-family: inherit;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: transparent;
+  padding: 0 5px 10px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+}
+
+.cta__form-input:focus-visible {
+  outline: none;
+}
+
+.cta__form-input::placeholder {
+  color: #FFFFFF;
+}
+
+.cta__form-input:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.cta__form-input:last-of-type {
+  margin-bottom: 40px;
+}
+
+.cta__form-submit {
+  margin: 0 auto;
+}

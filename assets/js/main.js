@@ -18,3 +18,12 @@ const heroSlider = new Swiper(".heroSlider", {
     swiper: heroSliderThumbs,
   },
 });
+
+const reviewsSlider = new Swiper(".reviews__slider", {
+  slidesPerView: 2,
+  spaceBetween: 50,
+  navigation: {
+    nextEl: '.reviews__slider-next',
+    prevEl: '.reviews__slider-prev',
+  },
+});
