@@ -18,7 +18,15 @@ body {
   border-radius: 40px;
   background: #FFFFFF;
   color: #000000;
-  max-width: 318px;
+  max-width: 320px;
+  transition: all .2s linear;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background: var(--main-color);
+  border-color: #FFFFFF
 }
 
 .container {
